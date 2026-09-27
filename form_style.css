@@ -51,6 +51,16 @@ button {
     cursor: pointer;
     font-size: 16px;
 }
+#submitbtn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
 
 button:hover {
     background-color: #0056b3;

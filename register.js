@@ -67,9 +67,9 @@ passDiv.appendChild(passLabel);
 passDiv.appendChild(passInput);
 
 // ===== Submit Button =====
-const submitBtn = document.createElement("input");
-submitBtn.type = "submit";
-submitBtn.value = "Create Account";
+const button = document.createElement("input");
+button.type = "submit";
+button.value = "Create Account";
 
 // ===== Back to Sign In Link =====
 const signinDiv = document.createElement("div");
@@ -81,7 +81,7 @@ form.appendChild(fnameDiv);
 form.appendChild(lnameDiv);
 form.appendChild(emailDiv);
 form.appendChild(passDiv);
-form.appendChild(submitBtn);
+form.appendChild(button);
 form.appendChild(signinDiv);
 
 // Add form to the page
