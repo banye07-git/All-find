@@ -6,9 +6,18 @@ body{
     align-items: center;
     height: 100vh;
     margin: 0;
+    padding: 0;
+    border: 1px solid #ccc;
 }
 
 #form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+} 
+#sign-in-form {
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;

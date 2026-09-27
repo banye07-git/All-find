@@ -3,7 +3,7 @@ const signinText = document.createElement("span");
 signinText.textContent = "Already have an account? ";
 
 const signinLink = document.createElement("a");
-signinLink.href = "index.html";  // <-- change to your sign-in file name
+signinLink.href = "sign_in.js";  // <-- change to your sign-in file name
 signinLink.textContent = "Sign In";
 
 signinDiv.appendChild(signinText);
